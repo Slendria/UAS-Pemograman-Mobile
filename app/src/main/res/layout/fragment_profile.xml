@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="100px"
+    tools:context=".profile">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="920px">
+
+        <ImageView
+            android:id="@+id/fotosem"
+            android:layout_width="match_parent"
+            android:layout_height="460px"
+            android:src="@drawable/screenshot_2023_03_09_200644"
+            app:srcCompat="@drawable/screenshot_2023_03_09_200644" />
+
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fotosem"
+            android:layout_marginTop="-3dp"
+            android:text="Kelvin Garcia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/alamt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nama"
+            android:text="Jakarta, Indonesia"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="match_parent"
+            android:layout_height="100px"
+            android:layout_below="@+id/alamt"
+            android:layout_marginLeft="10pt"
+            android:layout_marginRight="10pt"
+            android:background="@color/purple_500"
+            android:text="LOGOUT"
+            android:textColor="@color/white" />
+
+
+    </RelativeLayout>
+
+
+</FrameLayout>

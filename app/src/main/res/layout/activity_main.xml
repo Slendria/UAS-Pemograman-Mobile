@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50px"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/judul2"
+        android:layout_width="match_parent"
+        android:layout_margin="50px"
+        android:layout_height="520px"
+        android:src="@drawable/judul"/>
+
+    <EditText
+        android:layout_below="@+id/judul2"
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#858080"
+        android:hint="Username"/>
+
+    <EditText
+        android:layout_below="@+id/uname"
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#858080"
+        android:hint="Password" />
+    <Button
+        android:layout_marginTop="35px"
+        android:id="@+id/bttn1"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:text="Masuk"
+        android:background="@color/purple_500"
+        android:layout_below="@+id/pass"/>
+    <Button
+        android:layout_marginTop="15px"
+        android:id="@+id/bttn2"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:text="DAFTAR"
+        android:background="@color/purple_500"
+        android:layout_below="@+id/bttn1"/>
+</RelativeLayout>
+

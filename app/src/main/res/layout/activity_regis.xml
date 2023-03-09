@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="50px"
+    android:background="@color/white"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/judul3"
+        android:layout_width="match_parent"
+        android:layout_margin="50px"
+        android:layout_height="320px"
+        android:src="@drawable/judul"/>
+
+    <TextView
+        android:id="@+id/textsign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/judul3"
+        android:text="Sign up to see photos and videos from your friends"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:paddingLeft="13pt"
+        android:paddingRight="13pt"
+        android:layout_marginBottom="20pt"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/noTelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nomor Telepon"
+        android:layout_below="@+id/textsign"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat Email"
+        android:layout_below="@+id/noTelp"/>
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nama"
+        android:layout_below="@+id/email"/>
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_below="@+id/nama"/>
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:layout_below="@+id/uname"/>
+    <Button
+        android:layout_marginTop="20px"
+        android:id="@+id/bttn3"
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:textColor="@color/white"
+        android:text="Daftar"
+        android:background="@color/purple_500"
+        android:layout_below="@+id/password"/>
+    <TextView
+        android:layout_marginTop="6pt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dengan mendaftar berarti anda telah setuju dengan kebijakan, kebijkan data, kebijakan cookies"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:textSize="6pt"
+        android:layout_below="@+id/bttn3"/>
+
+
+</RelativeLayout>

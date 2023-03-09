@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"/>
+            <TextView
+                android:id="@+id/caritxt"
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:paddingLeft="4dp"
+                android:paddingTop="4dp"
+                android:text="Cari"
+                android:textColor="@color/black"
+                android:textSize="7pt"/>
+    <View
+        android:layout_marginTop="75px"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="2dp"
+        android:background="#9C9696"/>
+
+            <LinearLayout
+                android:layout_marginTop="100px"
+                android:layout_width="match_parent"
+                android:layout_height="360px"
+                android:orientation="horizontal"
+                >
+                <!--        ini linear pertama-->
+                <ImageView
+                    android:layout_width="360px"
+                    android:layout_height="360px"
+                    android:padding="5px"
+                    android:src="@drawable/screenshot_2023_03_09_202134"
+                    app:srcCompat="@drawable/screenshot_2023_03_09_202134" />
+
+                <ImageView
+                    android:layout_width="360px"
+                    android:layout_height="360px"
+                    android:padding="5px"
+                    android:src="@drawable/screenshot_2023_03_09_202153"
+                    app:srcCompat="@drawable/screenshot_2023_03_09_202153" />
+
+                <ImageView
+                    android:layout_width="360px"
+                    android:layout_height="360px"
+                    android:padding="5px"
+                    android:src="@drawable/screenshot_2023_03_09_202055"
+                    app:srcCompat="@drawable/screenshot_2023_03_09_202055" />
+
+            </LinearLayout>
+    <!--linear 2-->
+
+                <LinearLayout
+                    android:layout_marginTop="460px"
+                    android:layout_width="match_parent"
+                    android:layout_height="360px"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202039"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202039" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202021"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202021" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202021"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202021" />
+                </LinearLayout>
+    <!--linear 3-->
+                <LinearLayout
+                    android:layout_marginTop="820px"
+                    android:layout_width="match_parent"
+                    android:layout_height="360px"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202153"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202153" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202039"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202039" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202134"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202134" />
+                </LinearLayout>
+    <!--Linear 4-->
+                <LinearLayout
+                    android:layout_marginTop="1180px"
+                    android:layout_width="match_parent"
+                    android:layout_height="360px"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202055"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202055" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202153"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202153" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202021"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202021" />
+                </LinearLayout>
+    <!--Linear 5-->
+                <LinearLayout
+                    android:layout_marginTop="1540px"
+                    android:layout_width="match_parent"
+                    android:layout_height="360px"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202153"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202153" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202134"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202134" />
+
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:padding="5px"
+                        android:src="@drawable/screenshot_2023_03_09_202153"
+                        app:srcCompat="@drawable/screenshot_2023_03_09_202153" />
+                </LinearLayout>
+    <!--Linear 6-->
+                <LinearLayout
+                    android:layout_marginTop="1900px"
+                    android:layout_width="match_parent"
+                    android:layout_height="360px"
+                    android:orientation="horizontal"
+                    >
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:src="@drawable/screenshot_2023_03_09_202021"
+                        android:padding="5px"/>
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:src="@drawable/screenshot_2023_03_09_202153"
+                        android:padding="5px"/>
+                    <ImageView
+                        android:layout_width="360px"
+                        android:layout_height="360px"
+                        android:src="@drawable/screenshot_2023_03_09_202153"
+                        android:padding="5px"/>
+                </LinearLayout>
+</FrameLayout>
